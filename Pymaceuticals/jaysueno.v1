@@ -406,11 +406,31 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 25,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "g989    13\n",
+      "r811    10\n",
+      "j365    10\n",
+      "q787    10\n",
+      "b128    10\n",
+      "        ..\n",
+      "x226     1\n",
+      "n482     1\n",
+      "x336     1\n",
+      "v199     1\n",
+      "t573     1\n",
+      "Name: Mouse ID, Length: 249, dtype: int64\n"
+     ]
+    }
+   ],
    "source": [
-    "# Checking the number of mice.\n"
+    "# Checking the number of mice.\n",
+    "print(df['Mouse ID'].value_counts())"
    ]
   },
   {
@@ -420,6 +440,8 @@
    "outputs": [],
    "source": [
     "# Getting the duplicate mice by ID number that shows up for Mouse ID and Timepoint. \n",
+    "# us a conditional if mouse id and timepoint are the same then del\n",
+    "# or do a for loop. create a new df. for each line if (mouse id AND timepoint) doesn't equal new_df, then populate new_df.\n",
     "\n"
    ]
   },
