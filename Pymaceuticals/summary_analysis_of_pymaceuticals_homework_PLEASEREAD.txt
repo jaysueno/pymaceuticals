@@ -1,0 +1,6 @@
+!!!!PLEASE READ!!!!
+Summary analysis with observations and insights of the study:
+create 3 observations and insights
+1. There is a postitive correlation between the weight of the mice and the tumor size. The P-Value of .84 indicates this linear correlation. Therefore, we might want to keep the mice on a healthy diet and provide exercise to help them decrease tumor size.
+2. Capomulin seems to be an effective drug regimen to treat the cancer. The tumor size in mouse l509 decreased as time went on. 
+3. Of the 4 drug regimens we analyized, Capomulin and Ramicane were the most effective at decreasing tumor size. The least effective were the other two drugs Infubinol and Ceftamin. Therefore, I would recommend we do further studies or advance the two effective drugs to the next stage of trials. 
